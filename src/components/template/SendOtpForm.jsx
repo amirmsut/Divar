@@ -8,7 +8,7 @@ function SendOtpForm({ setStep, mobile, setMobile }) {
 
         if (response) setStep(2);
         if (error) console.log(error.response.data.message);
-        console.log({ response, error });
+        // console.log({ response, error });
     };
     return (
         <form onSubmit={submitHandler}>
