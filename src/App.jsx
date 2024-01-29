@@ -1,7 +1,7 @@
 function App() {
     return (
         <div>
-            <h1>First</h1>
+            <h1>پروژه سایت دیوار</h1>
         </div>
     );
 }
