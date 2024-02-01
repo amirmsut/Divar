@@ -20,6 +20,7 @@ function CheckOtpForm({ code, setCode, mobile, setStep }) {
             // console.log(response);
             setCookie(response.data);
             navigate("/");
+            refetch();
         }
         if (error) console.log(error.response.data.message);
     };
