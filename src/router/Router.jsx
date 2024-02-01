@@ -9,7 +9,7 @@ import PageNotFound from "pages/404";
 function Router() {
     return (
         <Routes>
-            <Route path="/" element={<HomePage />} />
+            <Route index element={<HomePage />} />
             <Route path="/dashboard" element={<DashboardPage />} />
             <Route path="/auth" element={<AuthPage />} />
             <Route path="/admin" element={<AdminPage />} />
